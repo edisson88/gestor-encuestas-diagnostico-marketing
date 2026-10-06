@@ -1,0 +1,1828 @@
+{
+  "version": "1.0.0",
+  "title": "Diagnóstico de marketing y marketing digital",
+  "status": "Primera versión sin validar",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Caracterización del emprendimiento"
+    },
+    {
+      "id": "B",
+      "title": "Clientes y prácticas de marketing"
+    },
+    {
+      "id": "C",
+      "title": "Recursos y acceso digital"
+    },
+    {
+      "id": "D",
+      "title": "Presencia digital y redes sociales"
+    },
+    {
+      "id": "E",
+      "title": "Habilidades para el marketing digital"
+    },
+    {
+      "id": "F",
+      "title": "Barreras para la promoción digital"
+    },
+    {
+      "id": "G",
+      "title": "Necesidades de apoyo y prioridades"
+    },
+    {
+      "id": "H",
+      "title": "Participación en el acompañamiento"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A1",
+      "section": "A",
+      "label": "¿Cuál es la actividad principal del emprendimiento?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Artesanías"
+        },
+        {
+          "value": "1",
+          "label": "Alimentos y bebidas"
+        },
+        {
+          "value": "2",
+          "label": "Turismo o alojamiento"
+        },
+        {
+          "value": "3",
+          "label": "Comercio"
+        },
+        {
+          "value": "4",
+          "label": "Servicios"
+        },
+        {
+          "value": "5",
+          "label": "Otra"
+        }
+      ],
+      "otherValue": "5"
+    },
+    {
+      "id": "A2",
+      "section": "A",
+      "label": "¿Cuánto tiempo lleva funcionando?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Menos de 6 meses"
+        },
+        {
+          "value": "1",
+          "label": "De 6 a 12 meses"
+        },
+        {
+          "value": "2",
+          "label": "Más de 1 a 3 años"
+        },
+        {
+          "value": "3",
+          "label": "Más de 3 años"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "section": "A",
+      "label": "¿Cuántas personas trabajan habitualmente, incluyéndose usted?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "1"
+        },
+        {
+          "value": "1",
+          "label": "2 a 3"
+        },
+        {
+          "value": "2",
+          "label": "4 a 5"
+        },
+        {
+          "value": "3",
+          "label": "6 o más"
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "section": "A",
+      "label": "¿Cuál es su función principal?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Propietario o socio"
+        },
+        {
+          "value": "1",
+          "label": "Responsable de ventas o promoción"
+        },
+        {
+          "value": "2",
+          "label": "Otra"
+        }
+      ],
+      "otherValue": "2"
+    },
+    {
+      "id": "B1",
+      "section": "B",
+      "label": "¿Quiénes son sus principales clientes?",
+      "kind": "multi",
+      "options": [
+        {
+          "value": "0",
+          "label": "Residentes de la zona"
+        },
+        {
+          "value": "1",
+          "label": "Visitantes o turistas"
+        },
+        {
+          "value": "2",
+          "label": "Empresas u organizaciones"
+        },
+        {
+          "value": "3",
+          "label": "Compradores de otras localidades"
+        },
+        {
+          "value": "4",
+          "label": "Aún no lo tengo claro"
+        },
+        {
+          "value": "5",
+          "label": "Otros"
+        }
+      ],
+      "max": 2,
+      "exclusive": [
+        "4"
+      ],
+      "otherValue": "5"
+    },
+    {
+      "id": "B2",
+      "section": "B",
+      "label": "¿Por cuáles medios vende?",
+      "kind": "multi",
+      "options": [
+        {
+          "value": "0",
+          "label": "Local o punto de venta"
+        },
+        {
+          "value": "1",
+          "label": "Ferias o eventos"
+        },
+        {
+          "value": "2",
+          "label": "Domicilios o visitas"
+        },
+        {
+          "value": "3",
+          "label": "WhatsApp"
+        },
+        {
+          "value": "4",
+          "label": "Redes sociales"
+        },
+        {
+          "value": "5",
+          "label": "Página web o tienda virtual"
+        },
+        {
+          "value": "6",
+          "label": "Otros"
+        }
+      ],
+      "otherValue": "6"
+    },
+    {
+      "id": "B3",
+      "section": "B",
+      "label": "Pregunté a mis clientes qué necesitan o qué opinan de mi oferta.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Nunca"
+        },
+        {
+          "value": "1",
+          "label": "Rara vez"
+        },
+        {
+          "value": "2",
+          "label": "A veces"
+        },
+        {
+          "value": "3",
+          "label": "Frecuentemente"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        },
+        {
+          "value": "5",
+          "label": "No aplica"
+        }
+      ],
+      "help": "Durante los últimos tres meses. Frecuentemente = en la mayoría de las ocasiones pertinentes."
+    },
+    {
+      "id": "B4",
+      "section": "B",
+      "label": "Expliqué a mis clientes qué diferencia mi producto o servicio.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Nunca"
+        },
+        {
+          "value": "1",
+          "label": "Rara vez"
+        },
+        {
+          "value": "2",
+          "label": "A veces"
+        },
+        {
+          "value": "3",
+          "label": "Frecuentemente"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        },
+        {
+          "value": "5",
+          "label": "No aplica"
+        }
+      ],
+      "help": "Durante los últimos tres meses. Frecuentemente = en la mayoría de las ocasiones pertinentes."
+    },
+    {
+      "id": "B5",
+      "section": "B",
+      "label": "Tuve en cuenta mis costos para establecer los precios.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Nunca"
+        },
+        {
+          "value": "1",
+          "label": "Rara vez"
+        },
+        {
+          "value": "2",
+          "label": "A veces"
+        },
+        {
+          "value": "3",
+          "label": "Frecuentemente"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        },
+        {
+          "value": "5",
+          "label": "No aplica"
+        }
+      ],
+      "help": "Durante los últimos tres meses. Frecuentemente = en la mayoría de las ocasiones pertinentes."
+    },
+    {
+      "id": "B6",
+      "section": "B",
+      "label": "Planifiqué acciones para promocionar el emprendimiento.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Nunca"
+        },
+        {
+          "value": "1",
+          "label": "Rara vez"
+        },
+        {
+          "value": "2",
+          "label": "A veces"
+        },
+        {
+          "value": "3",
+          "label": "Frecuentemente"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        },
+        {
+          "value": "5",
+          "label": "No aplica"
+        }
+      ],
+      "help": "Durante los últimos tres meses. Frecuentemente = en la mayoría de las ocasiones pertinentes."
+    },
+    {
+      "id": "B7",
+      "section": "B",
+      "label": "Realicé acciones para que mis clientes volvieran a comprar.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Nunca"
+        },
+        {
+          "value": "1",
+          "label": "Rara vez"
+        },
+        {
+          "value": "2",
+          "label": "A veces"
+        },
+        {
+          "value": "3",
+          "label": "Frecuentemente"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        },
+        {
+          "value": "5",
+          "label": "No aplica"
+        }
+      ],
+      "help": "Durante los últimos tres meses. Frecuentemente = en la mayoría de las ocasiones pertinentes."
+    },
+    {
+      "id": "B8",
+      "section": "B",
+      "label": "Registré por qué medio llegaron nuevos clientes.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Nunca"
+        },
+        {
+          "value": "1",
+          "label": "Rara vez"
+        },
+        {
+          "value": "2",
+          "label": "A veces"
+        },
+        {
+          "value": "3",
+          "label": "Frecuentemente"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        },
+        {
+          "value": "5",
+          "label": "No aplica"
+        }
+      ],
+      "help": "Durante los últimos tres meses. Frecuentemente = en la mayoría de las ocasiones pertinentes."
+    },
+    {
+      "id": "B9",
+      "section": "B",
+      "label": "¿Cuál es su principal dificultad para conseguir o conservar clientes?",
+      "kind": "text"
+    },
+    {
+      "id": "C1",
+      "section": "C",
+      "label": "¿Con qué acceso a internet cuenta para el negocio?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Estable cuando lo necesito"
+        },
+        {
+          "value": "1",
+          "label": "Disponible pero con fallas frecuentes"
+        },
+        {
+          "value": "2",
+          "label": "Solo ocasional"
+        },
+        {
+          "value": "3",
+          "label": "No tengo acceso"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "section": "C",
+      "label": "¿Qué dispositivos puede utilizar para promocionar el negocio?",
+      "kind": "multi",
+      "options": [
+        {
+          "value": "0",
+          "label": "Celular propio"
+        },
+        {
+          "value": "1",
+          "label": "Celular compartido"
+        },
+        {
+          "value": "2",
+          "label": "Computador o tableta"
+        },
+        {
+          "value": "3",
+          "label": "Ninguno"
+        },
+        {
+          "value": "4",
+          "label": "Otro"
+        }
+      ],
+      "exclusive": [
+        "3"
+      ],
+      "otherValue": "4"
+    },
+    {
+      "id": "C3",
+      "section": "C",
+      "label": "¿Quién se encarga principalmente de la promoción digital?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Yo"
+        },
+        {
+          "value": "1",
+          "label": "Familiar o colaborador"
+        },
+        {
+          "value": "2",
+          "label": "Persona externa"
+        },
+        {
+          "value": "3",
+          "label": "Nadie"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "section": "C",
+      "label": "¿Cuánto tiempo podría dedicar semanalmente a la promoción digital?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Menos de 1 hora"
+        },
+        {
+          "value": "1",
+          "label": "1 a 2 horas"
+        },
+        {
+          "value": "2",
+          "label": "Más de 2 a 4 horas"
+        },
+        {
+          "value": "3",
+          "label": "Más de 4 horas"
+        },
+        {
+          "value": "4",
+          "label": "No podría dedicar tiempo"
+        },
+        {
+          "value": "5",
+          "label": "No sé"
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "section": "D",
+      "label": "Indique el estado de cada canal del emprendimiento.",
+      "kind": "matrix",
+      "options": [
+        {
+          "value": "0",
+          "label": "No tiene"
+        },
+        {
+          "value": "1",
+          "label": "Tiene pero no usó en 3 meses"
+        },
+        {
+          "value": "2",
+          "label": "Usó en 3 meses"
+        },
+        {
+          "value": "3",
+          "label": "No sabe"
+        }
+      ],
+      "rows": [
+        "WhatsApp personal para el negocio",
+        "WhatsApp Business",
+        "Facebook",
+        "Instagram",
+        "TikTok",
+        "Perfil del negocio en Google",
+        "Página web o tienda virtual"
+      ],
+      "help": "Una opción por canal. Si ninguno se usó en los últimos tres meses, se omitirán D2 a D9.",
+      "extraTextLabel": "Otro canal utilizado"
+    },
+    {
+      "id": "D2",
+      "section": "D",
+      "label": "¿Con qué frecuencia publicó contenido en las redes sociales del negocio?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No publiqué"
+        },
+        {
+          "value": "1",
+          "label": "Menos de una vez por semana"
+        },
+        {
+          "value": "2",
+          "label": "1 a 2 veces por semana"
+        },
+        {
+          "value": "3",
+          "label": "3 a 5 veces por semana"
+        },
+        {
+          "value": "4",
+          "label": "6 o más veces por semana"
+        },
+        {
+          "value": "5",
+          "label": "No sé"
+        },
+        {
+          "value": "6",
+          "label": "No aplica"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "section": "D",
+      "label": "¿Qué contenido publicó?",
+      "kind": "multi",
+      "options": [
+        {
+          "value": "0",
+          "label": "Fotos de productos o servicios"
+        },
+        {
+          "value": "1",
+          "label": "Precios o promociones"
+        },
+        {
+          "value": "2",
+          "label": "Videos"
+        },
+        {
+          "value": "3",
+          "label": "Historias de elaboración o del negocio"
+        },
+        {
+          "value": "4",
+          "label": "Consejos o información útil"
+        },
+        {
+          "value": "5",
+          "label": "Opiniones de clientes con su permiso"
+        },
+        {
+          "value": "6",
+          "label": "Ninguno"
+        },
+        {
+          "value": "7",
+          "label": "Otro"
+        },
+        {
+          "value": "8",
+          "label": "No aplica"
+        }
+      ],
+      "exclusive": [
+        "6",
+        "8"
+      ],
+      "otherValue": "7"
+    },
+    {
+      "id": "D4",
+      "section": "D",
+      "label": "¿Cómo decidió qué publicar?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Improvisé según el momento"
+        },
+        {
+          "value": "1",
+          "label": "Seguí un plan de publicaciones"
+        },
+        {
+          "value": "2",
+          "label": "Otra persona decidió"
+        },
+        {
+          "value": "3",
+          "label": "No publiqué"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        },
+        {
+          "value": "5",
+          "label": "No aplica"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "section": "D",
+      "label": "¿Cuánto tardó habitualmente en responder consultas recibidas por canales digitales?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Menos de 1 hora"
+        },
+        {
+          "value": "1",
+          "label": "1 a 6 horas"
+        },
+        {
+          "value": "2",
+          "label": "Más de 6 a 24 horas"
+        },
+        {
+          "value": "3",
+          "label": "Más de 24 horas"
+        },
+        {
+          "value": "4",
+          "label": "No respondí"
+        },
+        {
+          "value": "5",
+          "label": "No recibí consultas"
+        },
+        {
+          "value": "6",
+          "label": "No sé"
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "section": "D",
+      "label": "¿Las cuentas del negocio mostraban información de contacto actualizada?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Sí, en todas"
+        },
+        {
+          "value": "1",
+          "label": "Solo en algunas"
+        },
+        {
+          "value": "2",
+          "label": "No"
+        },
+        {
+          "value": "3",
+          "label": "No sé"
+        },
+        {
+          "value": "4",
+          "label": "No aplica"
+        }
+      ]
+    },
+    {
+      "id": "D7",
+      "section": "D",
+      "label": "¿Pagó publicidad en redes sociales?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Sí"
+        },
+        {
+          "value": "1",
+          "label": "No"
+        },
+        {
+          "value": "2",
+          "label": "No sé"
+        },
+        {
+          "value": "3",
+          "label": "No aplica"
+        }
+      ]
+    },
+    {
+      "id": "D8",
+      "section": "D",
+      "label": "¿Revisó datos de las plataformas para saber cómo funcionaron sus publicaciones?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Nunca"
+        },
+        {
+          "value": "1",
+          "label": "Rara vez"
+        },
+        {
+          "value": "2",
+          "label": "A veces"
+        },
+        {
+          "value": "3",
+          "label": "Frecuentemente"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        },
+        {
+          "value": "5",
+          "label": "No aplica"
+        }
+      ]
+    },
+    {
+      "id": "D9",
+      "section": "D",
+      "label": "¿Registró ventas originadas en consultas por medios digitales?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Sí, todas o la mayoría"
+        },
+        {
+          "value": "1",
+          "label": "Sí, algunas"
+        },
+        {
+          "value": "2",
+          "label": "No"
+        },
+        {
+          "value": "3",
+          "label": "No hubo ventas digitales"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ]
+    },
+    {
+      "id": "E1",
+      "section": "E",
+      "label": "Configurar la información del negocio en una red social.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E2",
+      "section": "E",
+      "label": "Tomar fotografías que muestren claramente el producto o servicio.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E3",
+      "section": "E",
+      "label": "Escribir textos que expliquen la oferta e inviten a consultar o comprar.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E4",
+      "section": "E",
+      "label": "Diseñar una pieza sencilla para publicar, por ejemplo con Canva.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E5",
+      "section": "E",
+      "label": "Grabar y editar un video corto para mostrar mi oferta.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E6",
+      "section": "E",
+      "label": "Preparar un calendario de publicaciones.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E7",
+      "section": "E",
+      "label": "Publicar historias o videos cortos en redes sociales.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E8",
+      "section": "E",
+      "label": "Responder consultas comerciales por medios digitales.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E9",
+      "section": "E",
+      "label": "Crear un catálogo en WhatsApp Business.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E10",
+      "section": "E",
+      "label": "Configurar una campaña de publicidad pagada.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E11",
+      "section": "E",
+      "label": "Interpretar datos de alcance e interacción de las publicaciones.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E12",
+      "section": "E",
+      "label": "Registrar cuáles consultas digitales se convierten en ventas.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "E13",
+      "section": "E",
+      "label": "Proteger el acceso a las cuentas del negocio.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No sé hacerlo"
+        },
+        {
+          "value": "1",
+          "label": "Puedo hacerlo con ayuda"
+        },
+        {
+          "value": "2",
+          "label": "Puedo hacerlo por mi cuenta"
+        },
+        {
+          "value": "3",
+          "label": "No sé valorar mi habilidad"
+        }
+      ],
+      "help": "Indique lo que puede hacer actualmente, aunque no lo realice con frecuencia."
+    },
+    {
+      "id": "F1",
+      "section": "F",
+      "label": "¿Cuáles son las principales dificultades para la promoción digital?",
+      "kind": "multi",
+      "options": [
+        {
+          "value": "0",
+          "label": "Falta de conocimientos"
+        },
+        {
+          "value": "1",
+          "label": "Falta de tiempo"
+        },
+        {
+          "value": "2",
+          "label": "Mala conectividad"
+        },
+        {
+          "value": "3",
+          "label": "Falta de dispositivos adecuados"
+        },
+        {
+          "value": "4",
+          "label": "Falta de presupuesto"
+        },
+        {
+          "value": "5",
+          "label": "Dificultad para producir fotos o videos"
+        },
+        {
+          "value": "6",
+          "label": "Dificultad para escribir contenido"
+        },
+        {
+          "value": "7",
+          "label": "No sé qué canales elegir"
+        },
+        {
+          "value": "8",
+          "label": "Temor a fraudes o pérdida de cuentas"
+        },
+        {
+          "value": "9",
+          "label": "No percibo beneficios para mi negocio"
+        },
+        {
+          "value": "10",
+          "label": "Ninguna"
+        },
+        {
+          "value": "11",
+          "label": "Otra"
+        }
+      ],
+      "max": 3,
+      "exclusive": [
+        "10"
+      ],
+      "otherValue": "11"
+    },
+    {
+      "id": "F2",
+      "section": "F",
+      "label": "¿Su emprendimiento podría destinar recursos a promoción digital?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Actualmente no"
+        },
+        {
+          "value": "1",
+          "label": "Sí, ocasionalmente"
+        },
+        {
+          "value": "2",
+          "label": "Sí, mensualmente"
+        },
+        {
+          "value": "3",
+          "label": "Depende de los resultados"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "section": "F",
+      "label": "¿Ha recibido formación en marketing digital durante el último año?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "No"
+        },
+        {
+          "value": "1",
+          "label": "Sí"
+        }
+      ],
+      "otherValue": "1",
+      "otherLabel": "Tema de la formación"
+    },
+    {
+      "id": "G1",
+      "section": "G",
+      "label": "Identificar a mis clientes y diferenciar mi oferta.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G2",
+      "section": "G",
+      "label": "Organizar precios y promociones.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G3",
+      "section": "G",
+      "label": "Elegir las redes sociales adecuadas para el negocio.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G4",
+      "section": "G",
+      "label": "Configurar y mejorar los perfiles en redes sociales.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G5",
+      "section": "G",
+      "label": "Crear fotografías y diseños para publicar.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G6",
+      "section": "G",
+      "label": "Crear videos cortos para redes sociales.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G7",
+      "section": "G",
+      "label": "Escribir mensajes y planificar publicaciones.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G8",
+      "section": "G",
+      "label": "Atender consultas y facilitar ventas por canales digitales.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G9",
+      "section": "G",
+      "label": "Usar WhatsApp Business y su catálogo.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G10",
+      "section": "G",
+      "label": "Realizar publicidad pagada en redes sociales.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G11",
+      "section": "G",
+      "label": "Evaluar publicaciones y registrar ventas digitales.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G12",
+      "section": "G",
+      "label": "Mejorar la visibilidad en búsquedas y mapas de Google.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G13",
+      "section": "G",
+      "label": "Proteger las cuentas y manejar información de clientes.",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Ningún apoyo"
+        },
+        {
+          "value": "1",
+          "label": "Poco apoyo"
+        },
+        {
+          "value": "2",
+          "label": "Bastante apoyo"
+        },
+        {
+          "value": "3",
+          "label": "Mucho apoyo"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ],
+      "help": "¿Cuánto apoyo necesita en este tema?"
+    },
+    {
+      "id": "G14",
+      "section": "G",
+      "label": "Elija hasta tres prioridades de los temas anteriores, sin repetir.",
+      "kind": "ranking",
+      "help": "Primera, segunda y tercera prioridad. Puede dejar posiciones sin responder."
+    },
+    {
+      "id": "G15",
+      "section": "G",
+      "label": "¿Qué otra necesidad de marketing considera importante?",
+      "kind": "text"
+    },
+    {
+      "id": "G16",
+      "section": "G",
+      "label": "¿Qué cambio concreto le gustaría lograr con el acompañamiento?",
+      "kind": "text"
+    },
+    {
+      "id": "H1",
+      "section": "H",
+      "label": "¿Le interesaría participar en actividades de apoyo?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "Sí"
+        },
+        {
+          "value": "1",
+          "label": "Tal vez"
+        },
+        {
+          "value": "2",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "section": "H",
+      "label": "¿Qué forma de acompañamiento le sería más útil?",
+      "kind": "multi",
+      "options": [
+        {
+          "value": "0",
+          "label": "Talleres presenciales"
+        },
+        {
+          "value": "1",
+          "label": "Asesoría individual"
+        },
+        {
+          "value": "2",
+          "label": "Práctica guiada con mi celular"
+        },
+        {
+          "value": "3",
+          "label": "Material impreso"
+        },
+        {
+          "value": "4",
+          "label": "Videos o guías por WhatsApp"
+        },
+        {
+          "value": "5",
+          "label": "Encuentros virtuales"
+        },
+        {
+          "value": "6",
+          "label": "Otra"
+        }
+      ],
+      "max": 2,
+      "otherValue": "6"
+    },
+    {
+      "id": "H3",
+      "section": "H",
+      "label": "¿En qué horarios podría participar?",
+      "kind": "multi",
+      "options": [
+        {
+          "value": "0",
+          "label": "Entre semana en la mañana"
+        },
+        {
+          "value": "1",
+          "label": "Entre semana en la tarde"
+        },
+        {
+          "value": "2",
+          "label": "Entre semana en la noche"
+        },
+        {
+          "value": "3",
+          "label": "Fin de semana"
+        },
+        {
+          "value": "4",
+          "label": "No tengo disponibilidad definida"
+        }
+      ],
+      "exclusive": [
+        "4"
+      ]
+    },
+    {
+      "id": "H4",
+      "section": "H",
+      "label": "¿Cuántos encuentros al mes podría atender?",
+      "kind": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "1"
+        },
+        {
+          "value": "1",
+          "label": "2"
+        },
+        {
+          "value": "2",
+          "label": "3 o más"
+        },
+        {
+          "value": "3",
+          "label": "Ninguno"
+        },
+        {
+          "value": "4",
+          "label": "No sé"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "section": "H",
+      "label": "¿Qué podría dificultar su participación?",
+      "kind": "multi",
+      "options": [
+        {
+          "value": "0",
+          "label": "Horarios de trabajo"
+        },
+        {
+          "value": "1",
+          "label": "Responsabilidades de cuidado"
+        },
+        {
+          "value": "2",
+          "label": "Transporte"
+        },
+        {
+          "value": "3",
+          "label": "Conectividad"
+        },
+        {
+          "value": "4",
+          "label": "Ninguna"
+        },
+        {
+          "value": "5",
+          "label": "Otra"
+        }
+      ],
+      "exclusive": [
+        "4"
+      ],
+      "otherValue": "5"
+    },
+    {
+      "id": "H6",
+      "section": "H",
+      "label": "¿Qué apoyo necesitaría para aplicar lo aprendido en su negocio?",
+      "kind": "text"
+    }
+  ]
+}

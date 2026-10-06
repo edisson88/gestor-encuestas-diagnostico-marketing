@@ -1,0 +1,93 @@
+generator client {
+ provider = "prisma-client-js"
+}
+datasource db {
+ provider = "postgresql"
+ url = env("DATABASE_URL")
+ directUrl = env("DIRECT_URL")
+}
+enum Role {
+ ADMIN
+ APPLICATOR
+}
+enum DiagnosticStatus {
+ DRAFT
+ COMPLETE
+}
+enum StudyPhase {
+ PILOT
+ DEFINITIVE
+}
+model User {
+ id String @id @default(cuid())
+ email String @unique
+ name String
+ passwordHash String
+ role Role @default(APPLICATOR)
+ active Boolean @default(true)
+ createdAt DateTime @default(now())
+ diagnostics Diagnostic[]
+ audits AuditLog[]
+}
+model InstrumentVersion {
+ id String @id @default(cuid())
+ version String @unique
+ definition Json
+ active Boolean @default(true)
+ createdAt DateTime @default(now())
+ diagnostics Diagnostic[]
+}
+model Diagnostic {
+ id String @id @default(cuid())
+ businessCode String
+ phase StudyPhase @default(PILOT)
+ status DiagnosticStatus @default(DRAFT)
+ consent Boolean
+ consentText String
+ answers Json
+ notes String @default("")
+ instrumentId String
+ instrument InstrumentVersion @relation(fields: [instrumentId], references: [id])
+ applicatorId String
+ applicator User @relation(fields: [applicatorId], references: [id])
+ revision Int @default(1)
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ completedAt DateTime?
+ audits AuditLog[]
+ @@unique([businessCode, phase, instrumentId])
+ @@index([phase,status])
+}
+model AuditLog {
+ id String @id @default(cuid())
+ actorId String
+ actor User @relation(fields: [actorId], references: [id])
+ diagnosticId String?
+ diagnostic Diagnostic? @relation(fields: [diagnosticId], references: [id])
+ action String
+ before Json?
+ after Json?
+ reason String?
+ createdAt DateTime @default(now())
+ @@index([diagnosticId,createdAt])
+}
+model Intervention {
+ id String @id @default(cuid())
+ topicCode String
+ phase StudyPhase
+ instrumentVersion String
+ finding String
+ objective String
+ activity String
+ expectedProduct String
+ responsible String
+ resources String
+ scheduledDate String
+ indicator String
+ baseline String
+ target String
+ verification String
+ agreed Boolean @default(false)
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+}

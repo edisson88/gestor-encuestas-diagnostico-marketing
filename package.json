@@ -1,0 +1,26 @@
+{
+  "name": "villa-restrepo-diagnostico",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "core-service-api",
+    "web-app",
+    "packages/instrument"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "npm run build -w @vr/instrument && concurrently -k -n API,WEB -c blue,yellow \"npm run dev -w core-service-api\" \"npm run dev -w web-app\"",
+    "build": "npm run db:generate && npm run build -w @vr/instrument && npm run build -w core-service-api && npm run build -w web-app",
+    "test": "npm run test -w @vr/instrument && npm run test -w core-service-api",
+    "db:generate": "npm run db:generate -w core-service-api",
+    "db:migrate": "npm run db:migrate -w core-service-api",
+    "db:deploy": "npm run db:deploy -w core-service-api",
+    "db:seed": "npm run db:seed -w core-service-api",
+    "setup:env": "node scripts/setup-env.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.4"
+  }
+}

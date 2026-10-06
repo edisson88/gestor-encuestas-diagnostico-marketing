@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"Iniciar API y frontend","type":"shell","command":"npm run dev","problemMatcher":[]},{"label":"Compilar proyecto","type":"shell","command":"npm run build","problemMatcher":[]},{"label":"Ejecutar pruebas","type":"shell","command":"npm test","problemMatcher":[]}]}

@@ -1,0 +1,1 @@
+{"buildCommand":"npm run build -w @vr/instrument && npm run build -w web-app","outputDirectory":"web-app/dist","installCommand":"npm ci --ignore-scripts","rewrites":[{"source":"/(.*)","destination":"/index.html"}]}
